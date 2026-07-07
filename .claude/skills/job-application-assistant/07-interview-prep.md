@@ -10,28 +10,39 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- CV bullets don't include quantified S/T/A/R detail. Stubs below need Asim to fill in specifics (numbers, situation context) before interview use. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Cost variance reduction at Yamama Cement Company (Cost Control / Variance Analysis)
+**Source:** CV - "Prepare detailed variance analysis reports, identifying cost drivers and savings opportunities"
+**S:** [Fill in: what cost/variance problem existed on the plant when you joined?]
+**T:** [Your specific mandate as Cost Control Leader]
+**A:** [Specific analysis method / tools used, e.g. Power BI dashboards, benchmarking approach]
+**R:** [Quantify: % cost saved, accuracy improvement, decisions influenced]
+**Use for:** "Tell me about a time you identified a cost-saving opportunity", "How do you approach variance analysis?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Promotion from Senior Cost Accountant to Chief Accountant at Takmeel Holding (Career Growth / Ownership)
+**Source:** CV - internal promotion, March 2020, after 3+ years as Senior Cost Accountant
+**S:** [What prompted the promotion - departing predecessor, expanded scope, etc.?]
+**T:** Take over full-scope accounting (GL, cost accounting, financial reporting) previously handled at a more senior level
+**A:** [What you changed in your first 90 days; how you scaled from cost-focus to full accounting ownership]
+**R:** [Quantify: reporting accuracy improvement, timeline for close process, retention of role for 5 years]
+**Use for:** "Tell me about a time you were given more responsibility", "How do you handle a broader scope than before?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Budgeting/forecasting cycle leadership (FP&A / Cross-functional Collaboration)
+**Source:** CV - "Led annual budgeting cycles, rolling forecasts, and monthly financial analysis activities"
+**S:** [Context: manual/fragmented process before, or scaling business need]
+**T:** Own the annual budget and rolling forecast process across departments
+**A:** [How you coordinated with department heads; tools/templates introduced]
+**R:** [Quantify: forecast accuracy improvement, time saved, executive adoption]
+**Use for:** "Describe your budgeting process", "How do you work with non-finance stakeholders?"
+
+### 4. Cost control process redesign (Process Improvement)
+**Source:** CV - "Developed and implemented robust cost control processes, improving financial accuracy" (Senior Cost Accountant, Takmeel)
+**S:** [What was broken/inefficient about the prior cost control process?]
+**T:** Redesign product costing and variance reporting processes
+**A:** [Specific process/system changes made]
+**R:** [Quantify: error rate reduction, time saved, accuracy improvement]
+**Use for:** "Tell me about a process you improved", "How do you ensure financial data accuracy?"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

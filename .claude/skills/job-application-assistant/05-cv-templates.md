@@ -105,12 +105,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Cost Control Manager / Financial Controller roles:**
+> Results-driven finance professional with 16 years of progressive experience in manufacturing and trading sectors, currently leading cost control and financial analysis across all plant operations at Yamama Cement Company. Deep expertise in FP&A, cost optimization, budgeting, forecasting, and variance analysis, with IFRS certifications from ACCA and SOCPA. Proven record of delivering executive-level insights that drive profitability and support strategic decision-making.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Chief Accountant / Finance Manager roles:**
+> Finance professional with 16 years of progressive experience spanning general accounting, cost accounting, and full-scope financial management in manufacturing and trade. Track record of managing GL, cost accounting, and financial reporting functions, leading annual budgeting cycles and rolling forecasts, and partnering with senior management on profitability initiatives. IFRS-certified (ACCA CertIFR, SOCPA) with additional credentials in financial modeling (FMVA) and BI (BIDA).
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

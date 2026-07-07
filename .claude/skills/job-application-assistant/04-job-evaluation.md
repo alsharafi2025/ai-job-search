@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Cost control & optimization, FP&A, budgeting & forecasting, variance analysis, IFRS reporting, financial modeling, manufacturing/industrial cost accounting
+**Moderate match areas:** Financial controllership, M&A analysis (CMSA), corporate banking/credit analysis (CBCA), BI/Power BI reporting
+**Weak match areas:** Treasury management, tax specialization, listed-company investor relations, technology/SaaS domain finance
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Cost Control Manager/Leader, Chief Accountant, Senior Cost Accountant, Financial Controller, FP&A Manager - manufacturing/industrial sector (cement, heavy industry)
+**Moderate:** Finance Manager / General Finance Manager roles in trade or FMCG sector, M&A analyst support roles
+**Entry-level:** CFO / Group Finance Director (16 years experience supports a stretch application, but treat as a stretch, not a baseline)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -63,19 +63,21 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Move into a Financial Controller / Finance Manager title with broader P&L and team leadership scope
+- Build toward Group Finance Director / CFO track in manufacturing or industrial sectors within 3-5 years
+- Deepen FP&A and M&A/valuation exposure (already invested in FMVA/CMSA certifications toward this)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: strategic financial planning, executive-level reporting, cost optimization projects with measurable savings, mentoring/leading a finance team
+- Tasks that drain: routine transactional bookkeeping with no analytical component, roles with no path to management
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed - can be selective; no urgency to accept a lateral or downgrade move
+- **Flexibility**: Riyadh-based; open to other Saudi cities only if role is clearly a step up
+- **Professional development**: Prioritize employers investing in further certifications (CMA, CFA) and clear promotion paths
+
+**Exclusion rule (hard filter):** Never shortlist or apply to Yamama Cement Company, Takmeel Holding Company, Bawazeir Establishment (Indomie), or Abdul Ghafoor Amin Company - current/former employers, conflict of interest.
 
 ### 6. Salary Benchmark (Optional)
 

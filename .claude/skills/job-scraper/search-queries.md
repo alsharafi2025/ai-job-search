@@ -4,67 +4,73 @@
 
 ## Search Sites
 
-Primary (Danish job market):
-- **jobindex.dk** - largest Danish job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Denmark / your city)
-- **karriere.dk** - IDA's job board (engineering/science roles)
-- **jobfinder.dk** - another major Danish job board
-- **akademikernes.dk** - academic union job board
+Primary (Saudi/Gulf job market):
+- **bayt.com** - largest Gulf job board
+- **gulftalent.com** - Gulf-focused professional job board
+- **naukrigulf.com** - Gulf job board
+- **linkedin.com/jobs** - LinkedIn job listings (filter: Saudi Arabia / Riyadh)
+- **tanqeeb.com** - Saudi/Arabic-language job board
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. "Copenhagen", "Sjælland", "Hovedstaden") where the site supports it.
+Queries are grouped by priority. Each query should be combined with location terms ("Riyadh", "Saudi Arabia") where the site supports it.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Cost Control / Financial Controller
 
-These match your strongest and most desired career direction.
-
-```
-site:jobindex.dk "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:jobindex.dk "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match the strongest and most desired career direction.
 
 ```
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:bayt.com "Cost Control Manager" Riyadh
+site:gulftalent.com "Financial Controller" Saudi Arabia
+site:linkedin.com/jobs "Cost Control Manager" Saudi Arabia
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Chief Accountant / Finance Manager (domain expertise: manufacturing/industrial)
 
-Adjacent roles you could pivot into.
-
-```
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+These match domain expertise in manufacturing and industrial cost accounting.
 
 ```
-site:jobindex.dk [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:jobindex.dk "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:gulftalent.com "Chief Accountant" Riyadh OR Saudi Arabia
+site:naukrigulf.com "Finance Manager" manufacturing Saudi Arabia
+site:linkedin.com/jobs "Chief Accountant" manufacturing Riyadh
+```
+
+### Priority 3: FP&A Manager / Senior Financial Analyst
+
+Adjacent roles to pivot into using FP&A and financial modeling skills.
+
+```
+site:bayt.com "FP&A Manager" Saudi Arabia
+site:gulftalent.com "Financial Planning and Analysis" Riyadh
+```
+
+### Priority 4: Broader Finance / M&A
+
+Wider net using CMSA/CBCA credentials.
+
+```
+site:gulftalent.com "M&A Analyst" Saudi Arabia
+site:bayt.com "Corporate Banking" credit analyst Riyadh
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location is within reasonable commute distance from home base. Define acceptable areas:
+- Riyadh and surrounding areas (ideal)
+- Other major Saudi cities (Jeddah, Dammam, Khobar) - acceptable if role is a clear step up
+- Other GCC countries - borderline, discuss relocation terms before applying
+- Outside GCC - too far, exclude unless user specifies otherwise
+
+## Excluded Employers (hard filter - current/former employers)
+
+Never surface or apply to:
+- Yamama Cement Company
+- Takmeel Holding Company
+- Bawazeir Establishment (Indomie)
+- Abdul Ghafoor Amin Company
 
 ## Date Filter
 
