@@ -24,8 +24,12 @@
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
+| PhD in Business Administration (in progress, ~halfway) | In progress | Walsh University | AI in Business Administration - exact dissertation title/expected completion date not yet confirmed with candidate |
+| MBA (in progress, near completion) | In progress | O.P. Jindal Global University | Completion date not yet confirmed with candidate |
 | Bachelor's Degree in Accounting | (dates not specified on CV) | University of Sana'a | Financial accounting fundamentals |
 | Diploma in Strategic Planning & Budgeting | (dates not specified on CV) | American French Institute | Strategic planning, budgeting |
+
+**Usage note:** Per candidate's instruction, only surface the MBA/PhD-in-progress on CVs targeting senior/strategic roles (Finance Director, VP Financial Planning, and similar) - not on standard Cost Control/Finance Manager applications where the primary credentials are the professional certifications (ACCA, SOCPA, FMVA, etc.). Confirm exact expected completion dates and PhD dissertation focus with the candidate before stating them precisely in a specific application.
 
 ## Professional Experience
 

@@ -23,8 +23,12 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **LinkedIn headline:** "Financial & Cost Analysis Manager"
 
 ### Education
+- **PhD in Business Administration (in progress, ~halfway)** - Walsh University - focus: AI in Business Administration (exact dissertation title/completion date TBC with candidate)
+- **MBA (in progress, near completion)** - O.P. Jindal Global University (exact completion date TBC with candidate)
 - **Bachelor's Degree in Accounting** - University of Sana'a
 - **Diploma in Strategic Planning & Budgeting** - American French Institute
+
+**Note:** Only surface the in-progress MBA/PhD on CVs/cover letters for senior or strategic roles (Finance Director, VP Financial Planning, and similar) per candidate's instruction - not on standard Cost Control/Finance Manager applications.
 
 ### Professional Experience
 - **Cost Control Leader** (June 2025 - Present) - **Yamama Cement Company** (Riyadh, manufacturing)
