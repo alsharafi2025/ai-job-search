@@ -56,13 +56,12 @@ site:gulftalent.com "M&A Analyst" Saudi Arabia
 site:bayt.com "Corporate Banking" credit analyst Riyadh
 ```
 
-## Location Filter
+## Location Filter (hard gate)
 
-When evaluating results, verify the job location is within reasonable commute distance from home base. Define acceptable areas:
 - Riyadh and surrounding areas (ideal)
-- Other major Saudi cities (Jeddah, Dammam, Khobar) - acceptable if role is a clear step up
-- Other GCC countries - borderline, discuss relocation terms before applying
-- Outside GCC - too far, exclude unless user specifies otherwise
+- Other Saudi cities (Jeddah, Dammam, Khobar, etc.) - acceptable, evaluate normally
+- **Explicitly remote roles** - acceptable regardless of employer's country
+- **Anywhere outside Saudi Arabia, non-remote** - excluded. Do not surface these at all, even as options to discuss.
 
 ## Excluded Employers (hard filter - current/former employers)
 

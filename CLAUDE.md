@@ -17,7 +17,8 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Identity
 - **Name:** Asim Alsharafi
-- **Location:** Riyadh, Saudi Arabia (open to other Saudi cities for a clear step up; GCC relocation discussed case by case)
+- **Location:** Riyadh, Saudi Arabia (open to other Saudi cities for a clear step up)
+- **Location constraint (hard filter):** Saudi Arabia only. Do not surface or apply to roles based outside Saudi Arabia, unless the role is explicitly remote (in which case location is irrelevant).
 - **Languages:** Arabic (Native), English (Fluent)
 - **Status:** Currently employed - Cost Control Leader at Yamama Cement Company
 - **LinkedIn headline:** "Financial & Cost Analysis Manager"
@@ -81,8 +82,12 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Deal-breakers
 - **Never apply to current or former employers** (conflict of interest): Yamama Cement Company, Takmeel Holding Company, Bawazeir Establishment (Indomie), Abdul Ghafoor Amin Company
+- **Never surface or apply to roles based outside Saudi Arabia** unless explicitly remote
 - Roles with no path toward Financial Controller / Finance Manager scope
 - Purely transactional bookkeeping roles with no analytical component
+
+### Verified-real requirement
+Every job surfaced must be independently verified as a real, active posting (not a scam, not expired, not a listing-aggregator page with no real posting behind it) before being presented or drafted for. Prefer postings with a named company or a reputable, identifiable recruiter/agency.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

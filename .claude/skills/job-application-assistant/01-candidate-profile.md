@@ -12,7 +12,8 @@
 - **GitHub:** N/A (non-technical/finance career track)
 - **Languages:** Arabic (Native), English (Fluent)
 - **Status:** Currently employed - Cost Control Leader at Yamama Cement Company
-- **Constraints:** Based in Riyadh; targeting roles in Riyadh/Saudi Arabia (open to relocation within KSA if role warrants it - confirm before assuming international relocation)
+- **Constraints:** Based in Riyadh; targeting roles in Riyadh/Saudi Arabia (open to relocation within KSA if role warrants it). **Hard geographic filter: Saudi Arabia only, or explicitly remote roles. Never surface or apply to non-remote roles based outside Saudi Arabia.**
+- **Secondary email (account login, not for applications):** alsharafiasim86@gmail.com — application documents use the primary CV email (alsharafiasim@yahoo.com) unless told otherwise
 
 **Do-not-apply list (current/former employers - conflict of interest):**
 - Yamama Cement Company (current employer)

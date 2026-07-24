@@ -46,11 +46,13 @@ Does the role and company culture match the behavioral profile?
 
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
-### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+### 4. Location & Logistics (Pass/Fail + Notes) — HARD GATE, evaluate first
+- **Job based in Saudi Arabia** (any city): PASS
+- **Explicitly remote** (no Saudi presence required): PASS regardless of employer location
+- **Job based outside Saudi Arabia and not remote**: FAIL — do not proceed to scoring or drafting, do not present to the user as a candidate option
+- Frequent international travel from a Saudi base: FLAG (discuss with user), does not itself fail the gate
+
+This gate is checked before any other dimension. A FAIL here ends the evaluation immediately regardless of how strong the other dimensions look.
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -151,6 +153,18 @@ Present the evaluation as:
 - **Moderate Fit** (45-59): Consider carefully, discuss with user
 - **Weak Fit** (30-44): Probably skip unless strategic reasons
 - **Poor Fit** (<30): Skip
+
+## Verified-Real-Posting Check (mandatory, before scoring)
+Before evaluating a posting, confirm it is real and worth spending effort on:
+- [ ] Posting is either on a reputable job board (Bayt, GulfTalent, NaukriGulf, LinkedIn, company's own careers page) or via a named, verifiable recruiter/agency
+- [ ] If the employer name is disclosed, a quick web check confirms the company actually exists and operates in the claimed sector
+- [ ] Not a stale/expired listing-aggregator page with no live posting behind it
+- [ ] Not a "too good to be true" red flag (no interview, upfront payment requested, personal banking details requested before an offer)
+
+Skip and do not present postings that fail this check.
+
+## Application Tracker
+Every job that reaches at least "Moderate Fit" and gets a drafted CV/cover letter should be logged in `job_search_tracker.csv` (repo root, gitignored - personal data) with columns: `date_found, company, role, source_url, fit_score, verdict, cv_file, cover_letter_file, status, date_applied, outcome, notes`. Create the file with a header row if it does not exist yet. Update the `status`/`outcome` columns whenever the user reports progress (applied, interview, rejected, offer). This gives a single source of truth for the whole pipeline instead of re-deriving it from conversation history each time.
 
 ## Pre-Application: Call the Employer (Best Practice)
 
