@@ -46,10 +46,11 @@ Does the role and company culture match the behavioral profile?
 
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
-### 4. Location & Logistics (Pass/Fail + Notes) — HARD GATE, evaluate first
+### 4. Location, Nationality & Logistics (Pass/Fail + Notes) — HARD GATE, evaluate first
 - **Job based in Saudi Arabia** (any city): PASS
 - **Explicitly remote** (no Saudi presence required): PASS regardless of employer location
 - **Job based outside Saudi Arabia and not remote**: FAIL — do not proceed to scoring or drafting, do not present to the user as a candidate option
+- **Posting explicitly requires Saudi nationality/citizenship** (e.g. "Saudi nationals only", citizenship required as a stated qualification): FAIL — candidate is not a Saudi national. A general Saudization-quota mention (e.g. company complying with Nitaqat) that does not exclude expatriate applicants is NOT a fail.
 - Frequent international travel from a Saudi base: FLAG (discuss with user), does not itself fail the gate
 
 This gate is checked before any other dimension. A FAIL here ends the evaluation immediately regardless of how strong the other dimensions look.

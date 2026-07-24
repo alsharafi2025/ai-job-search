@@ -63,6 +63,10 @@ site:bayt.com "Corporate Banking" credit analyst Riyadh
 - **Explicitly remote roles** - acceptable regardless of employer's country
 - **Anywhere outside Saudi Arabia, non-remote** - excluded. Do not surface these at all, even as options to discuss.
 
+## Nationality Filter (hard gate)
+
+Candidate is not a Saudi national. Exclude any posting that explicitly requires Saudi nationality/citizenship as a qualification (e.g. "Saudi nationals only"). A general Saudization/Nitaqat compliance mention that does not exclude expatriates is fine.
+
 ## Excluded Employers (hard filter - current/former employers)
 
 Never surface or apply to:
