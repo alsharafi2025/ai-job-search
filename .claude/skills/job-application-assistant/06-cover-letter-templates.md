@@ -4,7 +4,9 @@
 
 Cover letters use a custom LaTeX document class (`cover.cls`) with Lato/Raleway fonts.
 
-**Output file:** `cover_letters/cover_<company>_<role>.tex`
+**Output file:** `cover_letters/cover_<company>_<role>.tex` (internal source file - snake_case is fine here, this is a working file the user never sees directly)
+
+**Delivered filename (mandatory):** Before sending the compiled PDF to the user, copy/rename it to a natural, human-readable name - never hand over the raw snake_case working filename. Format: `Asim Alsharafi - Cover Letter - <Company or Role>.pdf` (spaces, proper capitalization, no concatenated slugs). Example: `Asim Alsharafi - Cover Letter - SADAFCO.pdf`.
 **Compile with:** XeLaTeX (cover.cls requires fontspec)
 **Font directory:** `cover_letters/OpenFonts/fonts/`
 

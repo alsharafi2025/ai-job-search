@@ -6,7 +6,9 @@
 
 All CVs use the moderncv LaTeX package with the "banking" style and "blue" color scheme.
 
-**Output file:** `cv/main_<company>.tex`
+**Output file:** `cv/main_<company>.tex` (internal source file - snake_case is fine here, this is a working file the user never sees directly)
+
+**Delivered filename (mandatory):** Before sending the compiled PDF to the user, copy/rename it to a natural, human-readable name - never hand over the raw snake_case working filename. Format: `Asim Alsharafi - CV - <Company or Role>.pdf` (spaces, proper capitalization, no concatenated slugs like `main_aromacity_financialcontroller_entertainment.pdf`). Example: `Asim Alsharafi - CV - SADAFCO.pdf`.
 **Compile with:** **lualatex** on MiKTeX/TeX Live. pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors; lualatex handles the same sources cleanly.
 **Master reference:** `cv/main_example.tex` (comprehensive CV with all competencies, experience, and achievements - use as source when building targeted CVs)
 
