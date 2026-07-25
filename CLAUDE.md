@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Asim Alsharafi
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Asim Alsharafi, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +16,80 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Asim Alsharafi
+- **Location:** Riyadh, Saudi Arabia (open to other Saudi cities for a clear step up)
+- **Location constraint (hard filter):** Saudi Arabia only. Do not surface or apply to roles based outside Saudi Arabia, unless the role is explicitly remote (in which case location is irrelevant).
+- **Nationality constraint (hard filter):** Not a Saudi national. Never surface or apply to postings that explicitly require Saudi nationality/citizenship (Saudization-only roles reserved for Saudi citizens specifically, as opposed to general Saudization quota mentions that don't exclude expatriate hires).
+- **Languages:** Arabic (Native), English (Fluent)
+- **Status:** Currently employed - Cost Control Leader at Yamama Cement Company
+- **LinkedIn headline:** "Financial & Cost Analysis Manager"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **PhD in Business Administration (in progress, ~halfway)** - Walsh University - focus: AI in Business Administration (exact dissertation title/completion date TBC with candidate)
+- **MBA (in progress, near completion)** - O.P. Jindal Global University (exact completion date TBC with candidate)
+- **Bachelor's Degree in Accounting** - University of Sana'a
+- **Diploma in Strategic Planning & Budgeting** - American French Institute
+
+**Note:** Only surface the in-progress MBA/PhD on CVs/cover letters for senior or strategic roles (Finance Director, VP Financial Planning, and similar) per candidate's instruction - not on standard Cost Control/Finance Manager applications.
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Cost Control Leader** (June 2025 - Present) - **Yamama Cement Company** (Riyadh, manufacturing)
+  - Lead cost control and financial analysis across all plant operations
+  - Prepare variance analysis reports, benchmark production costs against budgets
+  - Drive budgeting, forecasting, and executive-level financial reporting
+- **Chief Accountant** (March 2020 - June 2025) - **Takmeel Holding Company** (manufacturing)
+  - Managed full-scope accounting: cost accounting, GL, financial reporting
+  - Led annual budgeting cycles and rolling forecasts
+- **Senior Cost Accountant** (November 2016 - March 2020) - **Takmeel Holding Company** (manufacturing)
+  - Product costing, variance reporting, cost control process design
+- **Branch Accountant** (November 2011 - November 2016) - **Bawazeir Establishment (Indomie)** (trade)
+- **General Accountant** (April 2010 - June 2011) - **Abdul Ghafoor Amin Company**
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Financial Planning & Analysis (FP&A), cost control & optimization, budgeting & forecasting, variance analysis, IFRS reporting
+- **Secondary:** Financial modeling (FMVA), M&A analysis (CMSA), corporate banking/credit analysis (CBCA), BI/Power BI (BIDA)
+- **Domain:** Manufacturing / heavy industry (cement), trade/FMCG accounting
+- **Software:** ERP systems, Advanced Excel, Power BI
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **CertIFR** (International Financial Reporting) - ACCA
+- **IFRS** - Saudi Organization for Certified Public Accountants (SOCPA)
+- **FMVA** - Financial Modeling & Valuation Analyst
+- **BIDA** - Business Intelligence & Data Analyst
+- **CMSA** - Certified M&A Analyst
+- **CBCA** - Corporate Banking & Credit Analyst
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None on file
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None on file
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Inferred from CV language only; no formal assessment on file - see 02-behavioral-profile.md for detail and caveats -->
+- **Analytical/process-driven** - Consistent emphasis on accuracy, variance analysis, and structured cost control processes
+- **Steady, trust-earning progression** - Promoted internally rather than frequent job-hopping
+- **Strengths:** Cost optimization, executive-level reporting, IFRS compliance, cross-functional budgeting collaboration
+- **Growth areas:** Team size/people-management scope not yet quantified; confirm before targeting large management roles
+- **Thrives in:** Structured manufacturing/industrial environments with clear reporting lines to senior management
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Strategic financial planning and cost optimization projects with measurable savings
+- Delivering executive-level insights that influence business decisions
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Manufacturing/Industrial: cement, heavy industry, FMCG production
+- Trade/FMCG: distribution and branch finance operations
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- **Never apply to current or former employers** (conflict of interest): Yamama Cement Company, Takmeel Holding Company, Bawazeir Establishment (Indomie), Abdul Ghafoor Amin Company
+- **Never surface or apply to roles based outside Saudi Arabia** unless explicitly remote
+- **Never surface or apply to roles requiring Saudi nationality/citizenship** (not a Saudi national)
+- Roles with no path toward Financial Controller / Finance Manager scope
+- Purely transactional bookkeeping roles with no analytical component
+
+### Verified-real requirement
+Every job surfaced must be independently verified as a real, active posting (not a scam, not expired, not a listing-aggregator page with no real posting behind it) before being presented or drafted for. Prefer postings with a named company or a reputable, identifiable recruiter/agency.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

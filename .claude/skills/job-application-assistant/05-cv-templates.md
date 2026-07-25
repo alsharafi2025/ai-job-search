@@ -6,7 +6,9 @@
 
 All CVs use the moderncv LaTeX package with the "banking" style and "blue" color scheme.
 
-**Output file:** `cv/main_<company>.tex`
+**Output file:** `cv/main_<company>.tex` (internal source file - snake_case is fine here, this is a working file the user never sees directly)
+
+**Delivered filename (mandatory):** Before sending the compiled PDF to the user, copy/rename it to a natural, human-readable name - never hand over the raw snake_case working filename. Format: `Asim Alsharafi - CV - <Company or Role>.pdf` (spaces, proper capitalization, no concatenated slugs like `main_aromacity_financialcontroller_entertainment.pdf`). Example: `Asim Alsharafi - CV - SADAFCO.pdf`.
 **Compile with:** **lualatex** on MiKTeX/TeX Live. pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors; lualatex handles the same sources cleanly.
 **Master reference:** `cv/main_example.tex` (comprehensive CV with all competencies, experience, and achievements - use as source when building targeted CVs)
 
@@ -105,12 +107,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Cost Control Manager / Financial Controller roles:**
+> Results-driven finance professional with 16 years of progressive experience in manufacturing and trading sectors, currently leading cost control and financial analysis across all plant operations at Yamama Cement Company. Deep expertise in FP&A, cost optimization, budgeting, forecasting, and variance analysis, with IFRS certifications from ACCA and SOCPA. Proven record of delivering executive-level insights that drive profitability and support strategic decision-making.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Chief Accountant / Finance Manager roles:**
+> Finance professional with 16 years of progressive experience spanning general accounting, cost accounting, and full-scope financial management in manufacturing and trade. Track record of managing GL, cost accounting, and financial reporting functions, leading annual budgeting cycles and rolling forecasts, and partnering with senior management on profitability initiatives. IFRS-certified (ACCA CertIFR, SOCPA) with additional credentials in financial modeling (FMVA) and BI (BIDA).
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

@@ -4,47 +4,47 @@
 <!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+*[Inferred from CV language - no formal assessment on file; review before relying on this]*
+Asim's CV self-description leans toward a **results-driven analytical operator** pattern: steady progression from general accounting into cost control leadership, with repeated emphasis on accuracy, process improvement, and executive-level reporting.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Analytical rigor | High | Strong emphasis on variance analysis, benchmarking, data-driven recommendations |
+| Process discipline | High | Repeated focus on "improving accuracy" and "robust cost control processes" |
+| Executive communication | Moderate-High | Comfortable delivering "actionable insights" to senior management |
+| Risk-taking / ambiguity tolerance | Unknown | No signal yet - confirm with candidate |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Accuracy-focused:** Consistently mentions improving reporting accuracy and process robustness across every role
+- **Collaborative with management:** Works closely with senior leadership on budgeting/forecasting cycles
+- **Steady upward progression:** Promoted internally (Senior Cost Accountant -> Chief Accountant) rather than frequent job-hopping, suggesting reliability and earned trust
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+*[Inferred - confirm with candidate]*
+- Structured environments with clear reporting lines to senior management
+- Manufacturing/industrial settings where cost data ties directly to operational decisions
+- Long-tenure roles (5 years at Takmeel, 5 years at Bawazeir) suggest preference for stability over frequent change
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Career title stagnation risk:** Long tenure in similar-scope roles - frame as deep domain mastery rather than lack of ambition
+- **Limited people-management scale on paper:** CV doesn't state team size managed - clarify and quantify before applying to larger management roles
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "cost optimization", "variance analysis", "budgeting and forecasting", "executive reporting", "process improvement"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "fast-paced, ambiguous startup environment", "high travel", "no established finance function yet"
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Works well under senior management providing clear direction and strategic priorities
+- Prefers measurable, process-oriented management over purely visionary/unstructured leadership
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Emphasize the arc from General Accountant to Cost Control Leader as evidence of sustained growth and trust earned
+- **CV:** Emphasize quantifiable cost savings and reporting accuracy improvements (request specific numbers from candidate where CV is qualitative only)
+- **Interviews:** Use the Chief Accountant promotion and cross-department collaboration as core STAR material
+- **Don't overstate:** Do not claim large team leadership or greenfield finance function build-out unless confirmed - CV doesn't currently state team size
