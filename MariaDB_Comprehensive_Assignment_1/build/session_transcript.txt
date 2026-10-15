@@ -1,0 +1,394 @@
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 37
+Server version: 10.11.14-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> CREATE DATABASE Demo;
+Query OK, 1 row affected (0.000 sec)
+
+MariaDB [(none)]> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| demo               |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.001 sec)
+
+MariaDB [(none)]> USE Demo;
+Database changed
+MariaDB [Demo]> SELECT DATABASE();
++------------+
+| DATABASE() |
++------------+
+| demo       |
++------------+
+1 row in set (0.000 sec)
+
+MariaDB [Demo]> CREATE TABLE Book(
+    -> id INT NOT NULL AUTO_INCREMENT,
+    -> name VARCHAR(100) NOT NULL,
+    -> PRIMARY KEY (id));
+Query OK, 0 rows affected (0.004 sec)
+
+MariaDB [Demo]> CREATE TABLE Price(
+    -> id INT NOT NULL AUTO_INCREMENT,
+    -> price float NOT NULL,
+    -> PRIMARY KEY (id));
+Query OK, 0 rows affected (0.004 sec)
+
+MariaDB [Demo]> SHOW TABLES;
++----------------+
+| Tables_in_demo |
++----------------+
+| book           |
+| price          |
++----------------+
+2 rows in set (0.000 sec)
+
+MariaDB [Demo]> DESC Book;
++-------+--------------+------+-----+---------+----------------+
+| Field | Type         | Null | Key | Default | Extra          |
++-------+--------------+------+-----+---------+----------------+
+| id    | int(11)      | NO   | PRI | NULL    | auto_increment |
+| name  | varchar(100) | NO   |     | NULL    |                |
++-------+--------------+------+-----+---------+----------------+
+2 rows in set (0.001 sec)
+
+MariaDB [Demo]> DESC Price;
++-------+---------+------+-----+---------+----------------+
+| Field | Type    | Null | Key | Default | Extra          |
++-------+---------+------+-----+---------+----------------+
+| id    | int(11) | NO   | PRI | NULL    | auto_increment |
+| price | float   | NO   |     | NULL    |                |
++-------+---------+------+-----+---------+----------------+
+2 rows in set (0.001 sec)
+
+MariaDB [Demo]> INSERT INTO book
+    -> (id, name)
+    -> VALUES(1, 'MariaDB Book');
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [Demo]> INSERT INTO price
+    -> (id, price)
+    -> VALUES(1, 200);
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [Demo]> SELECT * from book;
++----+--------------+
+| id | name         |
++----+--------------+
+|  1 | MariaDB Book |
++----+--------------+
+1 row in set (0.000 sec)
+
+MariaDB [Demo]> SELECT * from price;
++----+-------+
+| id | price |
++----+-------+
+|  1 |   200 |
++----+-------+
+1 row in set (0.000 sec)
+
+MariaDB [Demo]> INSERT INTO book
+    -> (id, name)
+    -> VALUES
+    -> (2,'MariaDB Book2'),
+    -> (3,'MariaDB Book3'),
+    -> (4,'MariaDB Book4'),
+    -> (5,'MariaDB Book5');
+Query OK, 4 rows affected (0.002 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+MariaDB [Demo]> SELECT * FROM book;
++----+---------------+
+| id | name          |
++----+---------------+
+|  1 | MariaDB Book  |
+|  2 | MariaDB Book2 |
+|  3 | MariaDB Book3 |
+|  4 | MariaDB Book4 |
+|  5 | MariaDB Book5 |
++----+---------------+
+5 rows in set (0.000 sec)
+
+MariaDB [Demo]> INSERT INTO price
+    -> (id, price)
+    -> VALUES
+    -> (2, 250),
+    -> (3, 220),
+    -> (4, 190),
+    -> (5, 300);
+Query OK, 4 rows affected (0.001 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+MariaDB [Demo]> SELECT * FROM price;
++----+-------+
+| id | price |
++----+-------+
+|  1 |   200 |
+|  2 |   250 |
+|  3 |   220 |
+|  4 |   190 |
+|  5 |   300 |
++----+-------+
+5 rows in set (0.000 sec)
+
+MariaDB [Demo]> UPDATE price
+    -> SET price = 250
+    -> WHERE id = 1;
+Query OK, 1 row affected (0.001 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [Demo]> SELECT * FROM price;
++----+-------+
+| id | price |
++----+-------+
+|  1 |   250 |
+|  2 |   250 |
+|  3 |   220 |
+|  4 |   190 |
+|  5 |   300 |
++----+-------+
+5 rows in set (0.000 sec)
+
+MariaDB [Demo]> UPDATE book
+    -> SET name = "MariaDB Book1"
+    -> WHERE id = 1;
+Query OK, 1 row affected (0.001 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [Demo]> SELECT * FROM book;
++----+---------------+
+| id | name          |
++----+---------------+
+|  1 | MariaDB Book1 |
+|  2 | MariaDB Book2 |
+|  3 | MariaDB Book3 |
+|  4 | MariaDB Book4 |
+|  5 | MariaDB Book5 |
++----+---------------+
+5 rows in set (0.001 sec)
+
+MariaDB [Demo]> UPDATE price
+    -> SET id = 6,
+    -> price = 280
+    -> WHERE id = 5;
+Query OK, 1 row affected (0.001 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [Demo]> SELECT * FROM price;
++----+-------+
+| id | price |
++----+-------+
+|  1 |   250 |
+|  2 |   250 |
+|  3 |   220 |
+|  4 |   190 |
+|  6 |   280 |
++----+-------+
+5 rows in set (0.000 sec)
+
+MariaDB [Demo]> DELETE FROM price
+    -> WHERE id = 6;
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [Demo]> SELECT * FROM price;
++----+-------+
+| id | price |
++----+-------+
+|  1 |   250 |
+|  2 |   250 |
+|  3 |   220 |
+|  4 |   190 |
++----+-------+
+4 rows in set (0.000 sec)
+
+MariaDB [Demo]> SELECT *
+    -> FROM price
+    -> WHERE price < 250;
++----+-------+
+| id | price |
++----+-------+
+|  3 |   220 |
+|  4 |   190 |
++----+-------+
+2 rows in set (0.000 sec)
+
+MariaDB [Demo]> SELECT *
+    -> FROM price
+    -> WHERE id > 3
+    -> AND price < 250;
++----+-------+
+| id | price |
++----+-------+
+|  4 |   190 |
++----+-------+
+1 row in set (0.001 sec)
+
+MariaDB [Demo]> SELECT *
+    -> FROM price
+    -> WHERE id > 3
+    -> OR price < 250;
++----+-------+
+| id | price |
++----+-------+
+|  3 |   220 |
+|  4 |   190 |
++----+-------+
+2 rows in set (0.000 sec)
+
+MariaDB [Demo]> SELECT name
+    -> FROM book
+    -> WHERE name LIKE 'M%';
++---------------+
+| name          |
++---------------+
+| MariaDB Book1 |
+| MariaDB Book2 |
+| MariaDB Book3 |
+| MariaDB Book4 |
+| MariaDB Book5 |
++---------------+
+5 rows in set (0.001 sec)
+
+MariaDB [Demo]> SELECT name
+    -> FROM book
+    -> WHERE name LIKE '%4';
++---------------+
+| name          |
++---------------+
+| MariaDB Book4 |
++---------------+
+1 row in set (0.000 sec)
+
+MariaDB [Demo]> SELECT name
+    -> FROM book
+    -> WHERE name LIKE '%DB%';
++---------------+
+| name          |
++---------------+
+| MariaDB Book1 |
+| MariaDB Book2 |
+| MariaDB Book3 |
+| MariaDB Book4 |
+| MariaDB Book5 |
++---------------+
+5 rows in set (0.000 sec)
+
+MariaDB [Demo]> SELECT *
+    -> FROM price
+    -> WHERE price LIKE '1_0';
++----+-------+
+| id | price |
++----+-------+
+|  4 |   190 |
++----+-------+
+1 row in set (0.001 sec)
+
+MariaDB [Demo]> SELECT *
+    -> FROM price
+    -> WHERE price LIKE '_2_';
++----+-------+
+| id | price |
++----+-------+
+|  3 |   220 |
++----+-------+
+1 row in set (0.000 sec)
+
+MariaDB [Demo]> SELECT *
+    -> FROM price
+    -> WHERE price NOT LIKE '2%';
++----+-------+
+| id | price |
++----+-------+
+|  4 |   190 |
++----+-------+
+1 row in set (0.000 sec)
+
+MariaDB [Demo]> SELECT * FROM price
+    -> WHERE price LIKE '2%'
+    -> ORDER BY price;
++----+-------+
+| id | price |
++----+-------+
+|  3 |   220 |
+|  1 |   250 |
+|  2 |   250 |
++----+-------+
+3 rows in set (0.000 sec)
+
+MariaDB [Demo]> SELECT * FROM price
+    -> WHERE price LIKE '2%'
+    -> ORDER BY price DESC;
++----+-------+
+| id | price |
++----+-------+
+|  1 |   250 |
+|  2 |   250 |
+|  3 |   220 |
++----+-------+
+3 rows in set (0.000 sec)
+
+MariaDB [Demo]> SELECT * FROM price
+    -> WHERE price LIKE '2%'
+    -> ORDER BY price ASC;
++----+-------+
+| id | price |
++----+-------+
+|  3 |   220 |
+|  1 |   250 |
+|  2 |   250 |
++----+-------+
+3 rows in set (0.000 sec)
+
+MariaDB [Demo]> SELECT price FROM Price;
++-------+
+| price |
++-------+
+|   250 |
+|   250 |
+|   220 |
+|   190 |
++-------+
+4 rows in set (0.000 sec)
+
+MariaDB [Demo]> SELECT DISTINCT price FROM Price;
++-------+
+| price |
++-------+
+|   250 |
+|   220 |
+|   190 |
++-------+
+3 rows in set (0.000 sec)
+
+MariaDB [Demo]> SELECT * FROM price;
++----+-------+
+| id | price |
++----+-------+
+|  1 |   250 |
+|  2 |   250 |
+|  3 |   220 |
+|  4 |   190 |
++----+-------+
+4 rows in set (0.001 sec)
+
+MariaDB [Demo]> SELECT price FROM Price;
++-------+
+| price |
++-------+
+|   250 |
+|   250 |
+|   220 |
+|   190 |
++-------+
+4 rows in set (0.000 sec)
+
+MariaDB [Demo]> exit
